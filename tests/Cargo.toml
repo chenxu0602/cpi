@@ -1,0 +1,14 @@
+[package]
+name = "tests"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[dependencies]
+anchor-client = "0.31.0"
+anchor-lang = "0.31.1"
+cpi = { version = "0.1.0", path = "../programs/cpi" }
+solana-client = "2.2.7"
+solana-program-test = "2.2.7"
+solana-sdk = "2.2.2"
+tokio = { version = "1.45.1", features = ["full"] }
